@@ -1,0 +1,41 @@
+.custom-class {
+    display: none;
+}
+
+@include media-breakpoint-up(sm) {
+    .custom-class {
+        display: block;
+    }
+}
+
+.custom-class {
+    display: none;
+}
+
+@include media-breakpoint-up(md) {
+    .custom-class {
+        display: block;
+    }
+}
+
+.custom-class {
+    display: none;
+}
+
+@include media-breakpoint-up(lg) {
+    .custom-class {
+        display: block;
+    }
+}
+
+.custom-class {
+    display: none;
+}
+
+@include media-breakpoint-up(xl) {
+    .custom-class {
+        display: block;
+    }
+}
+
+
